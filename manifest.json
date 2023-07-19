@@ -1,0 +1,20 @@
+{
+  "name": "Volume Booster",
+  "version": "1.0",
+  "description": "volume booster",
+  "manifest_version": 3,
+  "action":{
+      "default_popup": "extension.html",
+      "default_title": "Volume Booster"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],"content_scripts": [
+    {
+      "js": ["backend.js"],
+      "matches": ["<all_urls>"],
+      "run_at": "document_end"
+    }
+  ]
+}
