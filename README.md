@@ -10,7 +10,7 @@ The extension uses AudioContext to scan for and edit the volume for video elemen
 ## To Use
 
 1. Download the zip folder and unzip.
-2. Open Chrome Extensions and turn on Developer Mode and click Load Unpacked.
+2. Open Chrome Extensions, turn on Developer Mode and click Load Unpacked.
 3. Select the folder and enable the extension.
 4. Pin it and restart Google Chrome.
 
