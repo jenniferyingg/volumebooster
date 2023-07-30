@@ -16,5 +16,9 @@
       "matches": ["<all_urls>"],
       "run_at": "document_end"
     }
-  ]
+  ], "icons": {
+    "16": "imgs/icon.png",
+    "64": "imgs/icon.png",
+    "128": "imgs/icon.png"
+  }
 }
