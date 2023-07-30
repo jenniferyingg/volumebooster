@@ -6,11 +6,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  <div class="container mt-3 shadow-effect" style="width: 300px; height: 100px;">
-    <h3 class="text-center">Volume Booster</h3>
-    <input type="range" class="slider" min="0" max="500" step="10" value="100" id="volumeSlider">
-    <output id="output">100%</output>
+<body style="width: 350px; height: 130px;">
+  <h3 class="text-center" style="padding-top: 10px; color: #234a74; padding-bottom: 10px;">Volume Booster</h3>
+  <div class="slider">
+    <input type="range" min="0" max="500" step="10" value="100" id="volumeSlider" style="width: 200px;">
+    <output id="output" style="padding-left: 10px; color: #234a74;">100%</output>
   </div>
   <script src="extension.js"></script>
 </body>
