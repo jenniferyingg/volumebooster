@@ -4,11 +4,12 @@ let currVol;
 let gainNode;
 
 function initialize() {
+  console.log("initializing");
   // initializing currVol and casting to number
   currVol = sessionStorage.getItem(KEY);
   if (currVol == null) {
     currVol = defaultVolume;
-    sessionStorage.setItem(KEY, string(currVol));
+    sessionStorage.setItem(KEY, String(currVol));
   } 
   currVol = Number(currVol);
 
@@ -33,6 +34,7 @@ function initialize() {
 }
 
 function setUpGainNode() {
+  console.log("setting up gain node");
   const sound = document.querySelector("video");
   if (!sound) return null;
   const audioContext = new AudioContext();
