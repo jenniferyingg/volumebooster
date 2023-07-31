@@ -10,6 +10,7 @@ function initialize() {
             },
             function (response) {
                 document.getElementById("volumeSlider").value = response;
+                if (Number(response) >= 0 && Number(response) <= 500) document.getElementById("output").textContent = response + "%";
             }
         );
     },
